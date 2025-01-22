@@ -163,17 +163,17 @@
             android:textColor="@color/text"
             android:textSize="14sp" />
 
-        <TextView
-            android:id="@+id/change"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/selector_text"
-            android:focusable="true"
-            android:focusableInTouchMode="true"
-            android:nextFocusRight="@id/player"
-            android:text="@string/play_change"
-            android:textColor="@color/text"
-            android:textSize="14sp" />
+<!--        <TextView-->
+<!--            android:id="@+id/change"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/selector_text"-->
+<!--            android:focusable="true"-->
+<!--            android:focusableInTouchMode="true"-->
+<!--            android:nextFocusRight="@id/player"-->
+<!--            android:text="@string/play_change"-->
+<!--            android:textColor="@color/text"-->
+<!--            android:textSize="14sp" />-->
 
     </LinearLayout>
 

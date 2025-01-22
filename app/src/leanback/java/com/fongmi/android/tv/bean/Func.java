@@ -43,9 +43,9 @@ public class Func {
             case R.string.home_keep:
                 this.drawable = R.drawable.ic_home_keep;
                 break;
-            case R.string.home_push:
-                this.drawable = R.drawable.ic_home_push;
-                break;
+//            case R.string.home_push:
+//                this.drawable = R.drawable.ic_home_push;
+//                break;
             case R.string.home_search:
                 this.drawable = R.drawable.ic_home_search;
                 break;

@@ -156,7 +156,7 @@ public class LiveActivity extends BaseActivity implements GroupPresenter.OnClick
         mBinding.control.speed.setOnClickListener(view -> onSpeed());
         mBinding.control.invert.setOnClickListener(view -> onInvert());
         mBinding.control.across.setOnClickListener(view -> onAcross());
-        mBinding.control.change.setOnClickListener(view -> onChange());
+//        mBinding.control.change.setOnClickListener(view -> onChange());
         mBinding.control.player.setOnClickListener(view -> onChoose());
         mBinding.control.decode.setOnClickListener(view -> onDecode());
         mBinding.control.speed.setOnLongClickListener(view -> onSpeedLong());
@@ -185,7 +185,7 @@ public class LiveActivity extends BaseActivity implements GroupPresenter.OnClick
         findViewById(R.id.timeBar).setNextFocusUpId(R.id.player);
         mBinding.control.invert.setActivated(Setting.isInvert());
         mBinding.control.across.setActivated(Setting.isAcross());
-        mBinding.control.change.setActivated(Setting.isChange());
+//        mBinding.control.change.setActivated(Setting.isChange());
         mBinding.control.speed.setText(mPlayers.getSpeedText());
         mBinding.control.decode.setText(mPlayers.getDecodeText());
         mBinding.control.speed.setEnabled(mPlayers.canAdjustSpeed());
@@ -369,7 +369,7 @@ public class LiveActivity extends BaseActivity implements GroupPresenter.OnClick
 
     private void onChange() {
         Setting.putChange(!Setting.isChange());
-        mBinding.control.change.setActivated(Setting.isChange());
+//        mBinding.control.change.setActivated(Setting.isChange());
     }
 
     private void onChoose() {
