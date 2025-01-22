@@ -30,7 +30,7 @@ public class Config {
     @SerializedName("time")
     private long time;
     @SerializedName("url")
-    private String url;
+    private String url="http://113.44.129.108/yingshi.json";
     @SerializedName("json")
     private String json;
     @SerializedName("name")

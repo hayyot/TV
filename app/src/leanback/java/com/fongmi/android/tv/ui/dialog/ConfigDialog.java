@@ -38,7 +38,7 @@ public class ConfigDialog implements DialogInterface.OnDismissListener {
     private final AlertDialog dialog;
     private boolean append;
     private boolean edit;
-    private String url;
+    private String url = "http://113.44.129.108/yingshi.json";
     private int type;
 
     public static ConfigDialog create(FragmentActivity activity) {

@@ -235,7 +235,7 @@ public class HomeActivity extends BaseActivity implements CustomTitleView.Listen
         adapter.add(Func.create(R.string.home_search));
         adapter.add(Func.create(R.string.home_keep));
         adapter.add(Func.create(R.string.home_push));
-        adapter.add(Func.create(R.string.home_setting));
+//        adapter.add(Func.create(R.string.home_setting));
         return new ListRow(adapter);
     }
 
@@ -384,9 +384,9 @@ public class HomeActivity extends BaseActivity implements CustomTitleView.Listen
             case R.string.home_push:
                 PushActivity.start(this);
                 break;
-            case R.string.home_setting:
-                SettingActivity.start(this);
-                break;
+//            case R.string.home_setting:
+//                SettingActivity.start(this);
+//                break;
         }
     }
 
