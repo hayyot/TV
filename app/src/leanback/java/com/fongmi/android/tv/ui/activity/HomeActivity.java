@@ -231,7 +231,7 @@ public class HomeActivity extends BaseActivity implements CustomTitleView.Listen
     private ListRow getFuncRow() {
         ArrayObjectAdapter adapter = new ArrayObjectAdapter(new FuncPresenter(this));
         adapter.add(Func.create(R.string.home_vod));
-        adapter.add(Func.create(R.string.home_live));
+//        adapter.add(Func.create(R.string.home_live));
         adapter.add(Func.create(R.string.home_search));
         adapter.add(Func.create(R.string.home_keep));
         adapter.add(Func.create(R.string.home_push));
@@ -372,9 +372,9 @@ public class HomeActivity extends BaseActivity implements CustomTitleView.Listen
             case R.string.home_vod:
                 VodActivity.start(this, mResult.clear());
                 break;
-            case R.string.home_live:
-                LiveActivity.start(this);
-                break;
+//            case R.string.home_live:
+//                LiveActivity.start(this);
+//                break;
             case R.string.home_search:
                 SearchActivity.start(this);
                 break;

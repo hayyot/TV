@@ -37,9 +37,9 @@ public class Func {
             case R.string.home_vod:
                 this.drawable = R.drawable.ic_home_vod;
                 break;
-            case R.string.home_live:
-                this.drawable = R.drawable.ic_home_live;
-                break;
+//            case R.string.home_live:
+//                this.drawable = R.drawable.ic_home_live;
+//                break;
             case R.string.home_keep:
                 this.drawable = R.drawable.ic_home_keep;
                 break;
