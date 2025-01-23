@@ -30,7 +30,7 @@
     <string name="play">Play</string>
     <string name="play_op">OP</string>
     <string name="play_ed">ED</string>
-    <string name="play_exo">EXO</string>
+<!--    <string name="play_exo">EXO</string>-->
     <string name="play_next">Next</string>
     <string name="play_prev">Prev</string>
     <string name="play_loop">Loop</string>
