@@ -219,30 +219,30 @@
             android:visibility="gone"
             tools:visibility="visible" />
 
-        <TextView
-            android:id="@+id/audio"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:background="@drawable/shape_accent"
-            android:tag="1"
-            android:text="@string/play_track_audio"
-            android:textColor="@color/control"
-            android:textSize="14sp"
-            android:visibility="gone"
-            tools:visibility="visible" />
+<!--        <TextView-->
+<!--            android:id="@+id/audio"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:background="@drawable/shape_accent"-->
+<!--            android:tag="1"-->
+<!--            android:text="@string/play_track_audio"-->
+<!--            android:textColor="@color/control"-->
+<!--            android:textSize="14sp"-->
+<!--            android:visibility="gone"-->
+<!--            tools:visibility="visible" />-->
 
-        <TextView
-            android:id="@+id/video"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/shape_accent"
-            android:tag="2"
-            android:text="@string/play_track_video"
-            android:textColor="@color/control"
-            android:textSize="14sp"
-            android:visibility="gone"
-            tools:visibility="visible" />
+<!--        <TextView-->
+<!--            android:id="@+id/video"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/shape_accent"-->
+<!--            android:tag="2"-->
+<!--            android:text="@string/play_track_video"-->
+<!--            android:textColor="@color/control"-->
+<!--            android:textSize="14sp"-->
+<!--            android:visibility="gone"-->
+<!--            tools:visibility="visible" />-->
 
     </LinearLayout>
 

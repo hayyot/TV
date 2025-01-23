@@ -58,13 +58,13 @@
             android:visibility="gone"
             tools:visibility="visible" />
 
-        <TextView
-            android:id="@+id/audio"
-            style="@style/Control.Action"
-            android:tag="1"
-            android:text="@string/play_track_audio"
-            android:visibility="gone"
-            tools:visibility="visible" />
+<!--        <TextView-->
+<!--            android:id="@+id/audio"-->
+<!--            style="@style/Control.Action"-->
+<!--            android:tag="1"-->
+<!--            android:text="@string/play_track_audio"-->
+<!--            android:visibility="gone"-->
+<!--            tools:visibility="visible" />-->
 
         <TextView
             android:id="@+id/video"
