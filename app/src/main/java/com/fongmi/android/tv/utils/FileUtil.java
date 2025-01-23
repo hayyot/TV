@@ -30,7 +30,7 @@ import java.util.zip.ZipFile;
 public class FileUtil {
 
     public static File getWall(int index) {
-        return Path.files("wallpaper_" + 2);
+        return Path.files("wallpaper_" + 4);
     }
 
     public static void openFile(File file) {
