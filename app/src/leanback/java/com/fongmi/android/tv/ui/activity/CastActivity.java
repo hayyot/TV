@@ -95,11 +95,11 @@ public class CastActivity extends BaseActivity implements CustomKeyDownCast.List
         mBinding.control.seek.setListener(mPlayers);
         mBinding.control.speed.setUpListener(this::onSpeedAdd);
         mBinding.control.speed.setDownListener(this::onSpeedSub);
-        mBinding.control.text.setUpListener(this::onSubtitleClick);
-        mBinding.control.text.setDownListener(this::onSubtitleClick);
-        mBinding.control.text.setOnClickListener(this::onTrack);
+//        mBinding.control.text.setUpListener(this::onSubtitleClick);
+//        mBinding.control.text.setDownListener(this::onSubtitleClick);
+//        mBinding.control.text.setOnClickListener(this::onTrack);
 //        mBinding.control.audio.setOnClickListener(this::onTrack);
-        mBinding.control.video.setOnClickListener(this::onTrack);
+//        mBinding.control.video.setOnClickListener(this::onTrack);
         mBinding.control.scale.setOnClickListener(view -> onScale());
         mBinding.control.speed.setOnClickListener(view -> onSpeed());
         mBinding.control.reset.setOnClickListener(view -> onReset());
@@ -240,7 +240,7 @@ public class CastActivity extends BaseActivity implements CustomKeyDownCast.List
     }
 
     private void hideControl() {
-        mBinding.control.text.setText(R.string.play_track_text);
+//        mBinding.control.text.setText(R.string.play_track_text);
         mBinding.control.getRoot().setVisibility(View.GONE);
         App.removeCallbacks(mR1);
     }
@@ -309,9 +309,9 @@ public class CastActivity extends BaseActivity implements CustomKeyDownCast.List
     }
 
     private void setTrackVisible() {
-        mBinding.control.text.setVisibility(mPlayers.haveTrack(C.TRACK_TYPE_TEXT) || mPlayers.isVod() ? View.VISIBLE : View.GONE);
+//        mBinding.control.text.setVisibility(mPlayers.haveTrack(C.TRACK_TYPE_TEXT) || mPlayers.isVod() ? View.VISIBLE : View.GONE);
 //        mBinding.control.audio.setVisibility(mPlayers.haveTrack(C.TRACK_TYPE_AUDIO) ? View.VISIBLE : View.GONE);
-        mBinding.control.video.setVisibility(mPlayers.haveTrack(C.TRACK_TYPE_VIDEO) ? View.VISIBLE : View.GONE);
+//        mBinding.control.video.setVisibility(mPlayers.haveTrack(C.TRACK_TYPE_VIDEO) ? View.VISIBLE : View.GONE);
     }
 
     private void setMetadata() {
